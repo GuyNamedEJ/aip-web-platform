@@ -2,6 +2,7 @@ import Link from "next/link"
 import { Button } from "@/components/ui/button"
 import { Card, CardContent, CardDescription, CardFooter, CardHeader, CardTitle } from "@/components/ui/card"
 import { ArrowRight, BookOpen, FileText, Lightbulb, Scale, Users } from "lucide-react"
+import { supabase } from '@/lib/supabaseClient';
 
 export default function Home() {
   return (
